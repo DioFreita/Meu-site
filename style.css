@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    overflow: scroll;
+}
+
+.background{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./img/background.jpg) no-repeat fixed;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;  
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+   
+    
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;  
+}
+
+.cabeçalho-link a{
+    color: #fff;
+    font-size: 12px;
+}
+
+.cabeçalho-link a:hover{
+    color:  #8edce0;
+    transition: 0.3s all;
+}
+
+.logo img{
+    width: 150px; /* Largura fixa */
+    height: 75px; /* Altura fixa */
+}
+
+
+button{
+    color: #8edce0;
+    background: transparent;
+    border:solid 1px #8edce0;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    width: 150px;
+}
+
+button:hover{
+    background-color: #8edce0;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.container-text{
+    padding: 100px 0 0 130px;
+}
+
+.text h3{
+    color: #fff;
+    font-size: 15px;
+}
+
+.text h1{
+    color: #fff;
+    margin-top: 10px;
+}
+
+.text span{
+    color: #8edce0; 
+}
+
+.text p{
+    color: #fff;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-right: 550px;
+    font-size: 15px;
+}
+
+.divisao h3{
+    color: #fff;
+    font-size: 15px;
+}
+
+.divisao h1{
+    color: #fff;
+    margin-top: 10px;
+}
+
+.divisao span{
+    color: #8edce0; 
+}
+
+.divisao p{
+    color: #fff;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+
+.redes-social{
+    margin-top: 10px;
+}
+
+.redes-social a{
+    color: #8edce0;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+
+@media screen and (max-width:600px){
+    .cabeçalho-link {
+        display: none;
+    }
+}
+
+.interesses{
+    margin-top: 200px;
+}
+
+.objetivos{
+    margin-top: 200px;
+}
+
+.poscredito{
+    margin-top: 200px;
+}
+
+.interesses img{
+    margin-left: 30px;
+    margin-top: 15px;
+    border-radius: 5%;
+}
+
+.objetivos img{
+    margin-left: 30px;
+    margin-top: 15px;
+    border-radius: 5%;
+}
+
+form {
+    max-width: 400px;
+    margin: 15px 200px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #8edce0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #8edce0;
+  }
+
+  .jogos {
+    max-width: 400px;
+    margin: 15px 30px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+  }
+  
+  .jogos h3 {
+    margin-bottom: 10px;
+    color: #8edce0;
+  }
+  
+  .jogos ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .jogos li {
+    margin-bottom: 5px;
+  }
+  
+  .jogos li:before {
+    margin-right: 5px;
+  }
+
+  .isa{
+    margin-top: 15px;
+    margin-left: 300px;
+  }
+
+  .isa img{
+    width: 200px; /* Largura fixa */
+    height:300px; /* Altura fixa */
+  }
+
+  .form-imagem {
+    display: flex;
+  }
+  
+  form {
+    width: 22%;
+    margin-left:0;
+  }
+  
+  .imagem {
+    margin-top: 15px;
+    width: 22%;
+    margin-left: 130px;
+    margin-right: 10px;
+  }
+  
+  .imagem b{
+    color: #ffffff;
+    margin-left: 20px;
+  }
+
+  .imagem img {
+    max-width: 100%;
+    border-radius: 5px;
+    height: auto;
+  }
+
+  .image-title {
+    display: flex;
+  }
+
+  .image-title img {
+    margin-right: 550px;
+    width: 15%;
+    height: 15%;
+    margin-top: 100px;
+    border-radius: 100px;
+    margin-left: 20px;
+  }
+
+.pets{
+    display:inline-block;
+    max-width:20%;
+}
+
+.pets img{
+    border-radius: 100px;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.pets b{
+    margin-left: 55px;
+    color: #ffffff;
+}
+
+.pet p{
+    margin-left: 50px;
+}
+
+.video{
+    margin-left: 130px;
+    margin-top: 200px;
+}
+
+.video span{
+    color: #ffffff;
+    margin-left: 130px;
+    font-size: 50px;
+}
